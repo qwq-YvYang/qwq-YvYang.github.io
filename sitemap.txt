@@ -1,0 +1,12 @@
+http://example.com/Gallery/wallpaper.html
+http://example.com/Gallery/BiliBili2233.html
+http://example.com/Gallery/index.html
+http://example.com/2024/10/27/%E8%93%9D%E5%A5%8F%E4%BA%91%E8%B5%84%E6%BA%90/
+http://example.com/2024/10/27/%E7%89%B9%E5%88%AB%E9%B8%A3%E8%B0%A2/
+http://example.com/2024/10/27/hello-world/
+http://example.com/playlist/index.html
+http://example.com/playlist/index%20-%20%E5%89%AF%E6%9C%AC.html
+http://example.com/about/index.html
+http://example.com/FriendLink/index.html
+http://example.com/categories/index.html
+http://example.com/
