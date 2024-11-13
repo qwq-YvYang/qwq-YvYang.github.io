@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://qwq-yvyang.us.kg/Gallery/wallpaper.html</loc>
+    <loc>http://qwq-yvyang.us.kg/Gallery/wallpaper/index.html</loc>
     
     <lastmod>2024-11-13</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://qwq-yvyang.us.kg/Gallery/Minecraft.html</loc>
+    <loc>http://qwq-yvyang.us.kg/Gallery/BiliBili2233/index.html</loc>
     
     <lastmod>2024-11-13</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://qwq-yvyang.us.kg/Gallery/genshinimpact.html</loc>
+    <loc>http://qwq-yvyang.us.kg/Gallery/index%20-%20%E5%89%AF%E6%9C%AC.html</loc>
     
     <lastmod>2024-11-13</lastmod>
     
@@ -38,7 +38,16 @@
   </url>
   
   <url>
-    <loc>http://qwq-yvyang.us.kg/Gallery/BiliBili2233.html</loc>
+    <loc>http://qwq-yvyang.us.kg/Gallery/genshinimpact/index.html</loc>
+    
+    <lastmod>2024-11-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://qwq-yvyang.us.kg/Gallery/Minecraft/index.html</loc>
     
     <lastmod>2024-11-13</lastmod>
     
