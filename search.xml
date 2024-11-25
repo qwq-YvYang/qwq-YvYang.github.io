@@ -4,11 +4,24 @@
   
     
     <entry>
-      <title>朝晖夕阴</title>
-      <link href="/2024/11/24/%E6%9C%9D%E6%99%96%E5%A4%95%E9%98%B4/"/>
-      <url>/2024/11/24/%E6%9C%9D%E6%99%96%E5%A4%95%E9%98%B4/</url>
+      <title>[保姆级教程]如何解压缩文件</title>
+      <link href="/2024/11/25/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-%E5%A6%82%E4%BD%95%E8%A7%A3%E5%8E%8B%E7%BC%A9%E6%96%87%E4%BB%B6/"/>
+      <url>/2024/11/25/%E4%BF%9D%E5%A7%86%E7%BA%A7%E6%95%99%E7%A8%8B-%E5%A6%82%E4%BD%95%E8%A7%A3%E5%8E%8B%E7%BC%A9%E6%96%87%E4%BB%B6/</url>
       
-        <content type="html"><![CDATA[<h1 id="梦开始的地方"><a href="#梦开始的地方" class="headerlink" title="梦开始的地方"></a>梦开始的地方</h1><p>本站开启“朝晖夕阴”分类，发表一些杂文，生活小时、吐槽……</p><p>以后会每周更新</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>风林</title>
+      <link href="/2024/11/24/%E9%A3%8E%E6%9E%97/"/>
+      <url>/2024/11/24/%E9%A3%8E%E6%9E%97/</url>
+      
+        <content type="html"><![CDATA[<h1 id="梦开始的地方"><a href="#梦开始的地方" class="headerlink" title="梦开始的地方"></a>梦开始的地方</h1><p>本站开启“风林”分类，发表一些杂文，生活小事、吐槽、日记……</p><p>以后将会每周更新</p>]]></content>
       
       
       <categories>
@@ -32,7 +45,7 @@
       
       <categories>
           
-          <category> 朝晖夕阴 </category>
+          <category> 风林 </category>
           
       </categories>
       
@@ -44,25 +57,6 @@
             <tag> 观点 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2024/10/27/hello-world/"/>
-      <url>/2024/10/27/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 教程 </category>
-          
-      </categories>
-      
       
     </entry>
     
