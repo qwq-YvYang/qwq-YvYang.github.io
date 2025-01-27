@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yvyang.us.kg/Gallery/ys/index.html</loc>
+    <loc>http://yvyang.us.kg/gallery/index.html</loc>
+    
+    <lastmod>2025-01-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yvyang.us.kg/gallery/ys/index.html</loc>
     
     <lastmod>2025-01-22</lastmod>
     
@@ -65,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://yvyang.us.kg/Gallery/mc/index.html</loc>
+    <loc>http://yvyang.us.kg/gallery/mc/index.html</loc>
     
     <lastmod>2025-01-05</lastmod>
     
@@ -74,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://yvyang.us.kg/Gallery/index.html</loc>
+    <loc>http://yvyang.us.kg/gallery/blbl2233/index.html</loc>
     
     <lastmod>2025-01-05</lastmod>
     
@@ -83,16 +92,7 @@
   </url>
   
   <url>
-    <loc>http://yvyang.us.kg/Gallery/blbl2233/index.html</loc>
-    
-    <lastmod>2025-01-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yvyang.us.kg/Gallery/wallpaper/index.html</loc>
+    <loc>http://yvyang.us.kg/gallery/wallpaper/index.html</loc>
     
     <lastmod>2025-01-05</lastmod>
     
@@ -148,7 +148,7 @@
 
   <url>
     <loc>http://yvyang.us.kg/</loc>
-    <lastmod>2025-01-22</lastmod>
+    <lastmod>2025-01-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -156,14 +156,14 @@
   
   <url>
     <loc>http://yvyang.us.kg/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2025-01-22</lastmod>
+    <lastmod>2025-01-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://yvyang.us.kg/tags/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</loc>
-    <lastmod>2025-01-22</lastmod>
+    <lastmod>2025-01-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
