@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.yvyang.us.kg/owo/owo.json</loc>
+    
+    <lastmod>2025-02-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.yvyang.us.kg/music/index.html</loc>
     
     <lastmod>2025-02-16</lastmod>
@@ -111,15 +120,6 @@
   
   <url>
     <loc>http://blog.yvyang.us.kg/resource/index.html</loc>
-    
-    <lastmod>2025-01-13</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.yvyang.us.kg/owo/owo.json</loc>
     
     <lastmod>2025-01-13</lastmod>
     
