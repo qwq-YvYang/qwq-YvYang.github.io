@@ -190,7 +190,7 @@ function choosePush(el) {
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'https://twikoo.qwq-yvyang.us.kg/',
+      envId: 'https://twikoo.yvyang.fun/',
       region: '',
       urls: [window.location.pathname],
       includeReply: false
@@ -204,7 +204,7 @@ function choosePush(el) {
   const init = () => {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
-      envId: 'https://twikoo.qwq-yvyang.us.kg/',
+      envId: 'https://twikoo.yvyang.fun/',
       region: '',
       onCommentLoaded: () => {
         btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
@@ -290,7 +290,7 @@ function choosePush(el) {
   const getComment = ele => {
     const runTwikoo = () => {
       twikoo.getRecentComments({
-        envId: 'https://twikoo.qwq-yvyang.us.kg/',
+        envId: 'https://twikoo.yvyang.fun/',
         region: '',
         pageSize: 6,
         includeReply: true
