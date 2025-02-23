@@ -1,0 +1,35 @@
+{% if darkmode %}
+        body {
+            background: linear-gradient(135deg, #364f6b, #222831);
+        }
+        .loading {
+            background: #393e46;
+            color: #EFEFEF;
+            box-shadow: 0 4px 8px rgba(100, 100, 100, 0.1);
+        }
+        .description {
+            color: #F3F3F3;
+        }
+        .url-text, .countdown-text {
+            color: #EFEFEF;
+        }
+        .jump-url {
+            border: 1px solid #777;
+            background-color: #333;
+            color: #EFEFEF;
+        }
+        .cancel-button {
+            background-color: #872C2C;
+            color: #FFF;
+        }
+        .confirm-button {
+            background-color: #28566F;
+            color: #FFF;
+        }
+        .progress-bar {
+            background-color: #444;
+        }
+        .progress {
+            background-color: #888;
+        }
+        {% endif %}

@@ -1,4 +1,3 @@
-http://blog.yvyang.fun/posts/63534/index.HTML
 http://blog.yvyang.fun/owo/owo.json
 http://blog.yvyang.fun/posts/48530/index.HTML
 http://blog.yvyang.fun/refreshto/index.html

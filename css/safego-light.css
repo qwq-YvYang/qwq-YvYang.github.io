@@ -1,0 +1,29 @@
+{% if not darkmode %}
+        body {
+            background: linear-gradient(135deg, #fce38a, #eaffd0);
+        }
+        .loading {
+            background: rgba(255, 255, 255, 0.7);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .url-text {
+            color: #333;
+        }
+        .jump-url {
+            border: 1px solid #ccc;
+            background-color: #F7F9FE;
+            color: #333;
+        }
+        .countdown-text {
+            color: #515151;
+        }
+        .cancel-button {
+            background-color: #a6e3e9;
+        }
+        .confirm-button {
+            background-color: #3fc1c9;
+        }
+        .progress {
+            background-color: #abedd8;
+        }
+        {% endif %}
