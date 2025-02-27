@@ -1,5 +1,5 @@
-http://blog.yvyang.fun/resource/index.html
 http://blog.yvyang.fun/owo/owo.json
+http://blog.yvyang.fun/resource/index.html
 http://blog.yvyang.fun/posts/48530/index.HTML
 http://blog.yvyang.fun/refreshto/index.html
 http://blog.yvyang.fun/music/index.html
