@@ -425,6 +425,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const currentTop = window.scrollY || document.documentElement.scrollTop
       const isDown = scrollDirection(currentTop)
       if (currentTop > 56) {
+        $header.classList.add('is-top-bar')
         if (flag === '') {
           $header.classList.add('nav-fixed')
           $rightside.classList.add('rightside-show')
