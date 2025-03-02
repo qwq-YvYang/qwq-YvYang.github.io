@@ -1,3 +1,4 @@
+http://blog.yvyang.fun/about/index.html
 http://blog.yvyang.fun/owo/owo.json
 http://blog.yvyang.fun/resource/index.html
 http://blog.yvyang.fun/posts/48530/index.HTML
@@ -15,7 +16,6 @@ http://blog.yvyang.fun/air-conditioner/index.html
 http://blog.yvyang.fun/tags/index.html
 http://blog.yvyang.fun/categories/index.html
 http://blog.yvyang.fun/playlist/index%20-%20%E5%89%AF%E6%9C%AC.html
-http://blog.yvyang.fun/about/index.html
 http://blog.yvyang.fun/
 http://blog.yvyang.fun/tags/%E7%94%9F%E6%B4%BB/
 http://blog.yvyang.fun/tags/%E6%95%99%E7%A8%8B/

@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.yvyang.fun/about/index.html</loc>
+    
+    <lastmod>2025-03-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.yvyang.fun/owo/owo.json</loc>
     
     <lastmod>2025-02-26</lastmod>
@@ -154,19 +163,10 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>http://blog.yvyang.fun/about/index.html</loc>
-    
-    <lastmod>2024-10-27</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>http://blog.yvyang.fun/</loc>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2025-03-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -174,21 +174,21 @@
   
   <url>
     <loc>http://blog.yvyang.fun/tags/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2025-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.yvyang.fun/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2025-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://blog.yvyang.fun/tags/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</loc>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2025-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -197,7 +197,7 @@
   
   <url>
     <loc>http://blog.yvyang.fun/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2025-03-01</lastmod>
+    <lastmod>2025-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

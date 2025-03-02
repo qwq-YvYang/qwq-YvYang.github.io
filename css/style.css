@@ -1,0 +1,275 @@
+/* #card-newest-comments img {border-radius: 10px; /* 设置最新评论圆角半径为10px，可以根据需要调整} */
+
+/* 侧边栏个人信息卡片动态渐变色 */
+#aside-content>.card-widget.card-info {
+    position: relative;
+    z-index: 1; /* 确保原内容在上层显示 */
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+#aside-content > .card-widget.card-info::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, 
+		rgba(255, 255, 255, 0.0),
+		rgba(255, 255, 255, 0.3),
+		rgba(255, 255, 255, 0.6),
+		rgba(255, 255, 255, 0.7)),
+		url('/config/img/dog.jpg'); /* 鼠标悬停时显示的背景图片 */
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    transition: opacity 0.8s; /* 过渡效果持续时间 */
+    z-index: -1;
+}
+
+[data-theme=dark] #aside-content > .card-widget.card-info::before {
+    background: linear-gradient(to bottom, 
+		rgba(24, 40, 72, .1),
+		rgba(35, 37, 58, .3),
+        rgba(35, 37, 58, .6),
+        rgba(24, 40, 72, .7)), 
+        url('/config/img/dog.jpg'); /* 鼠标悬停时显示的背景图片 */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#aside-content > .card-widget.card-info:hover::before {
+    opacity: 1;
+}
+/* 卡片动态效果，好好看哈哈 */
+#aside-content div.card-widget.card-info .avatar-img {
+    transition: opacity 0.3s ease; /* 添加渐变效果 */
+}
+
+#aside-content div.card-widget.card-info .avatar-img:hover {
+    opacity: 0; /* 鼠标移上去时完全透明 */
+}
+
+#card-info-btn:hover, #card-info-btn:hover .icon, #card-info-btn:hover span {
+  transform: scale(1.1); /* 鼠标悬停时放大到110% */
+}
+
+[data-theme=dark] #aside-content>.card-widget.card-info {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .6),
+            rgba(35, 37, 58, .5),
+            rgba(35, 37, 58, .5),
+            rgba(24, 40, 72, .6));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/* 侧边栏公告栏卡片渐变色 */
+#aside-content>.card-widget.card-announcement {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] #aside-content>.card-widget.card-announcement {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/* 侧边栏目录最新文章卡片渐变色 */
+#aside-content>.sticky_layout>.card-widget {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] #aside-content>.sticky_layout>.card-widget {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/* 侧边栏欢迎卡片渐变色 */
+#aside-content>.card-widget.welcomeBoxClass {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] #aside-content>.card-widget.welcomeBoxClass {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/* 公告卡片渐变色 */
+#recent-posts>#noticeList {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] #recent-posts>#noticeList {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/* 个人信息Follow me按钮 */
+#aside-content>.card-widget.card-info>#card-info-btn {
+    background-color: #3eb8be;
+    border-radius: 10px;
+}
+
+/*文章页面*/
+.layout>#post {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] .layout>#post {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/*主页文章预览页面*/
+#recent-posts>.recent-post-item {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] #recent-posts>.recent-post-item {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/*分类页面*/
+.layout>#page {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+    /* -webkit-backdrop-filter: blur(10px); 兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] .layout>#page {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+    /* -webkit-backdrop-filter: blur(10px); 兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+
+/*时间轴页面*/
+.layout>#archive {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] .layout>#archive {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/*分类点进去的页面*/
+.layout>#category {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] .layout>#category {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+/*标签点进去的页面*/
+.layout>#tag {
+    background: linear-gradient(-45deg, rgba(255, 255, 255, .7),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .8),
+            rgba(255, 255, 255, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+[data-theme=dark] .layout>#tag {
+    background: linear-gradient(-45deg, rgba(24, 40, 72, .7),
+            rgba(35, 37, 58, .8),
+            rgba(35, 37, 58, .8),
+            rgba(24, 40, 72, .7));
+    /* backdrop-filter: blur(10px); 应用高斯模糊效果，可以根据需要调整模糊程度 */
+     /* -webkit-backdrop-filter: blur(10px);兼容性前缀，适用于一些旧版本的浏览器 */
+}
+
+.layout.hide-aside {
+   max-width: 1200px;
+}
+
+/* 设置黑夜的时候，社交按钮为白色 */
+[data-theme=dark] .social-icon i {
+    color: rgba(188, 188, 188) !important; /* 设置为白色 */
+}
