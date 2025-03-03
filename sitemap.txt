@@ -1,3 +1,4 @@
+http://blog.yvyang.fun/link/index.html
 http://blog.yvyang.fun/posts/48347/index.HTML
 http://blog.yvyang.fun/posts/48530/index.HTML
 http://blog.yvyang.fun/about/index.html
@@ -7,7 +8,6 @@ http://blog.yvyang.fun/refreshto/index.html
 http://blog.yvyang.fun/music/index.html
 http://blog.yvyang.fun/playlist/index.html
 http://blog.yvyang.fun/posts/16142/index.HTML
-http://blog.yvyang.fun/link/index.html
 http://blog.yvyang.fun/Gallery/blbl2233/index.html
 http://blog.yvyang.fun/Gallery/ys/index.html
 http://blog.yvyang.fun/Gallery/mc/index.html
